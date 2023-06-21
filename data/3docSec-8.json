@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "3docSec",
+  "risk": "3",
+  "title": "DefaultMaxSwapAmount is 10x higher than spec for ETH",
+  "issueId": 8,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/8"
+}
