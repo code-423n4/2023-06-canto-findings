@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "0xmichalis",
+  "risk": "2",
+  "title": "Whitelisted channel check uses the destination channel instead of the source channel",
+  "issueId": 18,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/18"
+}
