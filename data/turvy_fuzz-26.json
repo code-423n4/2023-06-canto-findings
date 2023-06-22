@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "turvy_fuzz",
+  "risk": "3",
+  "title": "doesn't handle when value of `reservePool` returned is nil",
+  "issueId": 26,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/26"
+}
