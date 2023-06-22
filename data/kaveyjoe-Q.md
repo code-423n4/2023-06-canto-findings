@@ -8,3 +8,29 @@ Target : https://github.com/code-423n4/2023-06-canto/blob/main/Canto/x/onboardin
 
 4 . The code block for converting coins to ERC20 tokens seems to be missing a check for the balance of the standardDenom before performing the conversion. It is important to ensure that the balance is sufficient for the conversion to avoid errors or inconsistencies.
 
+
+
+TARGET : https://github.com/code-423n4/2023-06-canto/blob/main/Canto/x/coinswap/keeper/pool.go
+
+1 . In the CreatePool function, there is no error handling for the GetStandardDenom function call. If GetStandardDenom returns an error, it should be handled appropriately.
+
+2 . In the GetPoolByLptDenom function, there is no error handling for the GetPool function call. If GetPool returns an error, it should be handled appropriately.
+
+3 . In the GetPoolBalances function, if the account retrieved using k.ak.GetAccount is nil, it returns nil instead of coins, which may cause unexpected behavior. It should return coins instead of nil and handle the ErrReservePoolNotExists error separately.
+
+4 . In the GetPoolBalancesByLptDenom function, if the account retrieved using k.ak.GetAccount is nil, it returns nil instead of coins, which may cause unexpected behavior. It should return coins instead of nil and handle the ErrReservePoolNotExists error separately.
+
+5 . In the GetLptDenomFromDenoms function, if denom1 and denom2 are equal, it returns an error of type types.ErrEqualDenom. However, this error is not handled in the calling code. It should be handled appropriately.
+
+6 . In the GetLptDenomFromDenoms function, if both denom1 and denom2 are not equal to the standard denom, it returns an error of type types.ErrNotContainStandardDenom. However, this error is not handled in the calling code. It should be handled appropriately.
+
+7 . In the GetLptDenomFromDenoms function, if the pool retrieved using k.GetPool does not exist, it returns an error of type types.ErrReservePoolNotExists. However, this error is not handled in the calling code. It should be handled appropriately.
+
+8 . In the ValidatePool function, if the pool retrieved using k.GetPoolByLptDenom does not exist, it returns an error of type types.ErrReservePoolNotExists. However, this error is not handled in the calling code. It should be handled appropriately.
+
+9 . In the setPool function, there is no error handling for the store.Set function calls. If store.Set returns an error, it should be handled appropriately.
+
+10 . In the getSequence function, there is no error handling for the store.Get function call. If store.Get returns an error, it should be handled appropriately.
+
+11 . In the setSequence function, there is no error handling for the store.Set function call. If store.Set returns an error, it should be handled appropriately.
+
