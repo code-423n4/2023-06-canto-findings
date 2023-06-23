@@ -40,7 +40,7 @@ In file `Canto/x/onboarding/keeper/ibc_callbacks.go`, there is a loop with comme
 // check source channel is in the whitelist channels
 ```
 
-When flag variable `found` is set to `true`, it should break the loop to reduce computation resource.
+When flag variable `found` is set to `true`, it should break the loop to save computation resource.
 
 https://github.com/code-423n4/2023-06-canto/blob/main/Canto/x/onboarding/keeper/ibc_callbacks.go#L48
 
