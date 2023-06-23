@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "Udsen",
+  "risk": "2",
+  "title": "`packet.DestinationChannel` IS CHECKED AGAINST THE `WhitelistedChannels`, BUT `packet.SourceChannel` SHOULD BE CHECKED INSTEAD, AS PER THE PROTOCOL DESIGN REQUIREMENTS",
+  "issueId": 53,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/53"
+}
