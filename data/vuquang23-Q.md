@@ -2,7 +2,7 @@
 
 **1. Should not allow creating a pool if `counterpartyDenom` param is standard denomination**
 
-The file `pool.go` in the `Canto/x/coinswap/keeper` package contains a function called `CreatePool`, which takes a parameter named `counterpartyDenom`. This function is responsible for creating a pool that consists of two tokens: one with the standard denomination and another with a counterparty denomination. It is important to ensure that we do not create a liquidity pool with two identical tokens. Therefore, we need to verify whether the counterpartyDenom is the standard denomination or not. If it is, we should return an error to indicate that creating a pool with identical tokens is not allowed.
+The file `pool.go` in the `Canto/x/coinswap/keeper` package contains a function called `CreatePool`, which takes a parameter named `counterpartyDenom`. This function is responsible for creating a pool that consists of two tokens: one with the standard denomination and another with a counterparty denomination. It is important to ensure that we do not create a liquidity pool with two identical tokens. Therefore, we need to verify whether the `counterpartyDenom` is the standard denomination or not. If it is, we should return an error to indicate that creating a pool with identical tokens is not allowed.
 
 https://github.com/code-423n4/2023-06-canto/blob/main/Canto/x/coinswap/keeper/pool.go#L15
 
