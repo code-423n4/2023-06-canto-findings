@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "yaarduck",
+  "risk": "2",
+  "title": "Missing store revert in case of swap error can lead to loss of funds",
+  "issueId": 69,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/69"
+}
