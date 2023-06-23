@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "dontonka",
+  "risk": "2",
+  "title": "Coinswap::Types::Params have a bad configuration for ETH max swap amount",
+  "issueId": 45,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/45"
+}
