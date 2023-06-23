@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "Evo",
+  "risk": "2",
+  "title": "GetAllPools could panic at iterator loop",
+  "issueId": 104,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/104"
+}
