@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "Udsen",
+  "risk": "2",
+  "title": "SWAP AMOUNT OF CANTO IS HARDCODED TO `4 Canto` IRRESPECITVE OF THE `Canto` BALANCE OF THE `Recipient`, WHICH COULD BE FURTHER DISADVANTAGEOUS TO THE `Recipient` IF THE CANTO PRICE INCREASES IN THE FUTURE",
+  "issueId": 52,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/52"
+}
