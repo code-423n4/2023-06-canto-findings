@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "erebus",
+  "risk": "2",
+  "title": "Lack of checks for non-zero values",
+  "issueId": 54,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/54"
+}
