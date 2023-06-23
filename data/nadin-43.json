@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "nadin",
+  "risk": "3",
+  "title": "Hard coding IBC denom may lead to panic in the future",
+  "issueId": 43,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/43"
+}
