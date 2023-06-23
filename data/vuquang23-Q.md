@@ -5,7 +5,7 @@
 The file `pool.go` in the `Canto/x/coinswap/keeper` package contains a function called `CreatePool`, which takes a parameter named `counterpartyDenom`. This function is responsible for creating a pool that consists of two tokens: one with the standard denomination and another with a counterparty denomination. It is important to ensure that we do not create a liquidity pool with two identical tokens. Therefore, we need to verify whether the `counterpartyDenom` is the standard denomination or not. If it is, we should return an error to indicate that creating a pool with identical tokens is not allowed.
 
 
-https://github.com/code-423n4/2023-06-canto/blob/main/Canto/x/coinswap/keeper/pool.go#L15
+https://github.com/code-423n4/2023-06-canto/blob/a4ff2fd2e67e77e36528fad99f9d88149a5e8532/Canto/x/coinswap/keeper/pool.go#L15
 
 
 Function change proposal
@@ -44,5 +44,5 @@ In file `Canto/x/onboarding/keeper/ibc_callbacks.go`, there is a loop with comme
 
 When flag variable `found` is set to `true`, it should break the loop to save computation resource.
 
-https://github.com/code-423n4/2023-06-canto/blob/main/Canto/x/onboarding/keeper/ibc_callbacks.go#L48
+https://github.com/code-423n4/2023-06-canto/blob/a4ff2fd2e67e77e36528fad99f9d88149a5e8532/Canto/x/onboarding/keeper/ibc_callbacks.go#L48
 
