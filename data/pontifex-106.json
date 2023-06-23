@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "pontifex",
+  "risk": "3",
+  "title": "The `calculateWithExactInput` uses the same state's values for all transactions in the block",
+  "issueId": 106,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/106"
+}
