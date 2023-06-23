@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "pontifex",
+  "risk": "2",
+  "title": "User with canto balance under the treshold will receive 4 `canto` for every transaction wich will be included in a block",
+  "issueId": 93,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/93"
+}
