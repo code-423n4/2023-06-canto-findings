@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "dontonka",
+  "risk": "3",
+  "title": "Onboarding::Keeper::Ibc_callbacks lacks two key validations which could cause user fund lost",
+  "issueId": 63,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/63"
+}
