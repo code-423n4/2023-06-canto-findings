@@ -1,8 +1,0 @@
-{
-  "contest": 252,
-  "handle": "14si2o_Flint",
-  "risk": "2",
-  "title": "Incorrect setting of EthIBCDenom invalidates risk management limits",
-  "issueId": 48,
-  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/48"
-}
