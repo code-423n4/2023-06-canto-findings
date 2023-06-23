@@ -1,0 +1,8 @@
+{
+  "contest": 252,
+  "handle": "yaarduck",
+  "risk": "3",
+  "title": "Missing slippage protection leads to potential sandwich of small transfers or blocking the swap feature",
+  "issueId": 68,
+  "issueUrl": "https://github.com/code-423n4/2023-06-canto-findings/issues/68"
+}
