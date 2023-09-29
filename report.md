@@ -1,7 +1,7 @@
 ---
 sponsor: "Canto"
 slug: "2023-06-canto"
-date: "2023-09-29"  # the date this report is published to the C4 website
+date: "2023-09-29"
 title: "Canto"
 findings: "https://github.com/code-423n4/2023-06-canto-findings/issues"
 contest: 252
@@ -21,31 +21,31 @@ During the audit outlined in this document, C4 conducted an analysis of the Cant
 
 24 Wardens contributed reports to the Canto:
 
-  1. 0xNightRaven
-  2. [0xSmartContract](https://twitter.com/0xSmartContract)
-  3. 3docSec
-  4. [DevABDee](https://twitter.com/DevABDee)
-  5. [Franfran](https://franfran.dev/)
-  6. Lirios
-  7. [Rolezn](https://twitter.com/Rolezn)
-  8. [Shogoki](https://twitter.com/theshogoki)
-  9. Team_FliBit ([14si2o_Flint](https://twitter.com/14si20) and [Naubit](https://twitter.com/thenaubit))
-  10. [Udsen](https://github.com/udsene)
-  11. dontonka
-  12. [erebus](https://twitter.com/erebus_eth)
-  13. [hihen](https://twitter.com/henryxf3)
-  14. kaveyjoe
-  15. kutugu
-  16. max10afternoon
-  17. [nadin](https://twitter.com/nadin20678790)
-  18. sces60107
-  19. [seerether](https://twitter.com/seerether)
-  20. solsaver
-  21. [squeaky\_cactus](https://twitter.com/squeaky_cactus)
-  22. vuquang23
-  23. yaarduck
+  1. [sces60107](https://code4rena.com/@sces60107)
+  2. [dontonka](https://code4rena.com/@dontonka)
+  3. [3docSec](https://code4rena.com/@3docSec)
+  4. [Franfran](https://code4rena.com/@Franfran)
+  5. Team\_FliBit ([14si2o\_Flint](https://code4rena.com/@14si2o_Flint) and [Naubit](https://code4rena.com/@Naubit))
+  6. [Lirios](https://code4rena.com/@Lirios)
+  7. [yaarduck](https://code4rena.com/@yaarduck)
+  8. [hihen](https://code4rena.com/@hihen)
+  9. [Rolezn](https://code4rena.com/@Rolezn)
+  10. [erebus](https://code4rena.com/@erebus)
+  11. [seerether](https://code4rena.com/@seerether)
+  12. [0xNightRaven](https://code4rena.com/@0xNightRaven)
+  13. [0xSmartContract](https://code4rena.com/@0xSmartContract)
+  14. [Udsen](https://code4rena.com/@Udsen)
+  15. [kutugu](https://code4rena.com/@kutugu)
+  16. [squeaky\_cactus](https://code4rena.com/@squeaky_cactus)
+  17. [DevABDee](https://code4rena.com/@DevABDee)
+  18. [solsaver](https://code4rena.com/@solsaver)
+  19. [vuquang23](https://code4rena.com/@vuquang23)
+  20. [max10afternoon](https://code4rena.com/@max10afternoon)
+  21. [nadin](https://code4rena.com/@nadin)
+  22. [Shogoki](https://code4rena.com/@Shogoki)
+  23. [kaveyjoe](https://code4rena.com/@kaveyjoe)
 
-This audit was judged by [0xean](https://github.com/0xean).
+This audit was judged by [0xean](https://code4rena.com/@0xean).
 
 Final report assembled by PaperParachute and [liveactionllama](https://twitter.com/liveactionllama).
 
